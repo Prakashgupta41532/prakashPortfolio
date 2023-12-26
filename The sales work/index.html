@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The sales work</title>
+  <link rel="icon" href="img/titlelogo.jpeg" type="image">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/phone.css">
+  <script src="js/script.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <!-- animate.css link below to animate anything -->
+  <link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- hover.css link below to hover anything  -->
+  <link href="css/hover.css" rel="stylesheet" media="all">
+</head>
+<body>
+  <!--CSS Spinner-->
+  
+  <header>
+    <a href="#" class="logo" id="logo">The Sales Work <span>.</span></a>
+    <div class="menuToggle" onclick="toggleMenu();"></div>
+    <ul class="navigation" id="navbar" >
+      <li><a href="#banner" onclick="toggleMenu();" class="hvr-underline-from-center" >Home</a></li>
+      <li><a href="#about" onclick="toggleMenu();" class="hvr-underline-from-center" >About Me</a></li>
+      <li><a href="#blogs" onclick="toggleMenu();"  class="hvr-underline-from-center" >Blogs</a></li>
+      <li><a href="#contact" onclick="toggleMenu();"  class="hvr-underline-from-center">Contact Me</a></li>
+    </ul>
+  </header>
+  <section class="banner" id="banner">
+    <div class="content">
+      <h2>Hi! i'm Prakash.</h2>
+      <h3>Creative Designer & Developer located in India. <br>
+        Specialized in
+        <a href="#" class="typewrite" data-period="2000" data-type='[ "Hi, I am prakash.", "Welcome to the sales work.", "Webpages designed and created by me.", "i am just a small coder..." ]'>
+            <span class="wrap"></span>
+        </a>
+      </h3>
+
+        <a href="#about"  class="btn animate__animated animate__zoomIn">Log In</a>
+
+       
+      <div class="arrow"> <a href="#about" >
+        <img src="img/downarrow.png"  class="arrow" alt="" > </a>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="row">
+      <div class="col50">
+        <h2 class="title-text"><span>A</span>bout Me</h2>
+        <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo voluptas ullam quaerat consequuntur vitae similique doloremque 
+          earum ut! Cum vero eaque labore? Omnis aliquid nobis voluptas architecto ducimus quia. adipisicing elit. Placeat, ducimus quia <br><br> numquam natus incidunt dolor earum nr
+           fficiis neque dolorum aliquid Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet voluptate tempore eaque molestias, aliquid eligendi doloremque ut volup
+           tas quibusdam laudantium. Voluptate similique officia sit non quos doloribus quaerat repellendus! fugiat sed commodi similique sapiente magni voluptatem debitis illo exercitationem.</p>
+      </div>
+      <div class="col50">
+        <div class="imgbx">
+          <img src="img/salesimg.jpeg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="blogs" id="blogs">
+    <div class="title">
+      <h2 class="title-text">
+        <span>B</span>logs
+      </h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, quaerat?</p>
+      <div class="content">
+        <div class="box">
+          <div class="imgbx">
+            <img src="img/red sun.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>Sun Set View</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgbx">
+            <img src="img/iceman.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>Mountain View</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgbx">
+            <img src="img/dubai-skyline-starry-sky-at-night-ultra-hd-wallpapers-for-android-mobile-phones-tablet-and-laptop-1920×1080-wallpaper-preview.jpg" alt="">
+          </div>
+          <div class="text">
+            <h3>Dubai Night View</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="title">
+      <a href="see more"  class="btn hvr-float">See More</a>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="title">
+      <h2 class="title-text">
+        <span>C</span>ontact Me
+      </h2>
+      <p>Get in touch with me</p>
+    </div>
+    <div class="contactform">
+      <h3>Send message</h3>
+      <form action="mailto:'pgupta41532@gmail.com' " method="POST" id="contact-form">
+      <div class="input-box">
+        <input type="text" placeholder="Name">
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Email">
+      </div>
+      <div class="input-box">
+        <textarea placeholder="Messages"></textarea>
+      </div>
+      <div class="input-box">
+        <input type="Submit" value="Send Message">
+      </div>
+    </form>
+    </div>
+    <div class="upbounce">
+      <a href="#banner">
+        <img src="img/uparrow.png" class="uparrow" alt="">
+      </a>
+    </div>
+  </section>
+  <div class="copyrighttext">
+    <p>  Attracting attention, or raising awareness is the first step in the process. <a href="#">@Prakash-2021 </a></p>
+  </div>
+
+
+</body>
+
+
+</html>
